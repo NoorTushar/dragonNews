@@ -1,7 +1,10 @@
+import logo from "../../../assets/logo.png";
+
 const Header = () => {
    return (
       <div>
-         <h3>Header</h3>
+         <img src={logo} alt="dragon-news"></img>
+         <p>Journalism Without Fear or Favour</p>
       </div>
    );
 };
