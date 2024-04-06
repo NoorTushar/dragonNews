@@ -7,10 +7,13 @@ const Register = () => {
 
       const form = new FormData(e.currentTarget);
 
+      const userName = form.get("username");
       const email = form.get("email");
       const password = form.get("password");
 
-      console.log("login with: ", email, "pass: ", password);
+      console.log(
+         `registered with, email: ${email}, name:${userName}, password: ${password}`
+      );
    };
 
    return (
