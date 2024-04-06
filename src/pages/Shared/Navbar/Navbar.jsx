@@ -61,7 +61,7 @@ const Navbar = () => {
                   <img alt="user" src={userDefaultPic} />
                </div>
             </div>
-            <Link>
+            <Link to={`/login`}>
                <button className="btn  w-[140px] bg-dark02 text-white hover:text-black">
                   Login
                </button>
